@@ -1,0 +1,191 @@
+x,y,ID,Label,Colour,Tier,Size
+0.01,0.5,0,English 11-plus,#D3D3D3,0,122972
+0.3,0.26,1,Grammar Consortium,#4994CE,1,60944
+0.3,0.46,2,Local Authority,#F27420,1,30376
+0.3,0.77,3,Single School,#7FC241,1,31652
+0.5,0.35,4,GLA,#8A5988,2,87862
+0.5,0.74,5,DIY,#D3D3D3,2,27277
+0.5,0.91,6,FS,#449E9E,2,6492
+0.5,0.96,7,CEM,#FABC13,2,1341
+0.7,0.1,8,Kent,#F27420,3,16450
+0.7,0.25,9,Lincs,#4994CE,3,5056
+0.7,0.175,10,TBGS,#4994CE,3,12233
+0.7,0.31,11,Birmingham,#4994CE,3,4992
+0.7,0.58,12,Gloucester,#4994CE,3,2667
+0.7,0.88,13,Essex,#4994CE,3,5292
+0.7,0.37,14,Medway Council,#F27420,3,3846
+0.7,0.54,15,Warks,#4994CE,3,2925
+0.7,0.34,16,Trafford,#4994CE,3,3944
+0.7,0.85,17,Sutton,#4994CE,3,14198
+0.7,0.6,18,Shropshire/Wolverhampton/Walsall,#4994CE,3,2590
+0.7,0.66,19,BCP,#4994CE,3,1433
+0.7,0.28,20,Slough,#4994CE,3,4972
+0.7,0.22,21,Bexley,#F27420,3,5856
+0.7,0.62,22,Wirral,#F27420,3,1720
+0.7,0.68,23,Lancs,#4994CE,3,642
+0.7,0.56,24,Redbridge,#F27420,3,2257
+0.7,0.64,25,Kent|Dover,#7FC241,3,652
+0.7,0.99,26,Kent|Shepway,#7FC241,3,707
+0.99,0,27,Barton Court Grammar School,#D3D3D3,4,658
+0.99,0,28,Chatham and Clarendon Grammar School,#D3D3D3,4,658
+0.99,0,29,Cranbrook School,#D3D3D3,4,658
+0.99,0,30,Dane Court Grammar School,#D3D3D3,4,658
+0.99,0,31,Dartford Grammar School,#D3D3D3,4,658
+0.99,0,32,Dartford Grammar School for Girls,#D3D3D3,4,658
+0.99,0,33,GRAVESEND GRAMMAR SCHOOL,#D3D3D3,4,658
+0.99,0,34,Highworth Grammar School,#D3D3D3,4,658
+0.99,0,35,Invicta Grammar School,#D3D3D3,4,658
+0.99,0,36,Maidstone Grammar School,#D3D3D3,4,658
+0.99,0,37,Maidstone Grammar School for Girls,#D3D3D3,4,658
+0.99,0,38,Oakwood Park Grammar School,#D3D3D3,4,658
+0.99,0,39,Queen Elizabeth's Grammar School,#D3D3D3,4,658
+0.99,0,40,Simon Langton Girls' Grammar School,#D3D3D3,4,658
+0.99,0,41,Simon Langton Grammar School for Boys,#D3D3D3,4,658
+0.99,0,42,SIR ROGER MANWOOD'S SCHOOL,#D3D3D3,4,658
+0.99,0,43,The Judd School,#D3D3D3,4,658
+0.99,0,44,The Norton Knatchbull School,#D3D3D3,4,658
+0.99,0,45,The Skinners' School Academy Trust,#D3D3D3,4,658
+0.99,0,46,Tonbridge Grammar School,#D3D3D3,4,658
+0.99,0,47,Tunbridge Wells Girls' Grammar,#D3D3D3,4,658
+0.99,0,48,Tunbridge Wells Grammar School for Boys,#D3D3D3,4,658
+0.99,0,49,Weald of Kent Grammar School,#D3D3D3,4,658
+0.99,0,50,Wilmington Boys Grammar School,#D3D3D3,4,658
+0.99,0,51,Wilmington Grammar School for Girls,#D3D3D3,4,658
+0.99,0,52,Aylesbury Grammar School,#D3D3D3,4,941
+0.99,0,53,AYLESBURY HIGH SCHOOL,#D3D3D3,4,941
+0.99,0,54,Beaconsfield High School,#D3D3D3,4,941
+0.99,0,55,BURNHAM GRAMMAR SCHOOL,#D3D3D3,4,941
+0.99,0,56,CHESHAM GRAMMAR SCHOOL,#D3D3D3,4,941
+0.99,0,57,Dr Challoner's Grammar School,#D3D3D3,4,941
+0.99,0,58,Dr. Challoner's High School,#D3D3D3,4,941
+0.99,0,59,JOHN HAMPDEN GRAMMAR SCHOOL,#D3D3D3,4,941
+0.99,0,60,Royal Grammar School,#D3D3D3,4,941
+0.99,0,61,Sir Henry Floyd Grammar School,#D3D3D3,4,941
+0.99,0,62,Sir William Borlase's Grammar,#D3D3D3,4,941
+0.99,0,63,The Royal Latin School,#D3D3D3,4,941
+0.99,0,64,Wycombe High School,#D3D3D3,4,941
+0.99,0,65,Beths Grammar School,#D3D3D3,4,1464
+0.99,0,66,Bexley Grammar School,#D3D3D3,4,1464
+0.99,0,67,Chislehurst & Sidcup Grammar,#D3D3D3,4,1464
+0.99,0,68,Townley Grammar School,#D3D3D3,4,1464
+0.99,0,69,Queen Elizabeth's High School,#D3D3D3,4,783
+0.99,0,70,Bourne Grammar School,#D3D3D3,4,557
+0.99,0,71,Spalding High School,#D3D3D3,4,512
+0.99,0,72,KING EDWARD VI GRAMMAR SCHOOL,#D3D3D3,4,437
+0.99,0,73,Kesteven & Grantham Girls' School,#D3D3D3,4,403
+0.99,0,74,Boston Grammar School,#D3D3D3,4,383
+0.99,0,75,Spalding Grammar School,#D3D3D3,4,332
+0.99,0,76,Boston High School,#D3D3D3,4,320
+0.99,0,77,"The King's School, Grantham.",#D3D3D3,4,287
+0.99,0,78,CAISTOR GRAMMAR SCHOOL,#D3D3D3,4,285
+0.99,0,79,Carre's Grammar School,#D3D3D3,4,232
+0.99,0,80,"Queen Elizabeth's Grammar, Alford - A Selective Academy",#D3D3D3,4,205
+0.99,0,81,Skegness Grammar School,#D3D3D3,4,124
+0.99,0,82,Kesteven & Sleaford High School,#D3D3D3,4,98
+0.99,0,83,Queen Elizabeth's Grammar,#D3D3D3,4,98
+0.99,0,84,BISHOP VESEY'S GRAMMAR SCHOOL,#D3D3D3,4,624
+0.99,0,85,KING EDWARD VI ASTON SCHOOL,#D3D3D3,4,624
+0.99,0,86,KING EDWARD VI CAMP HILL GIRLS,#D3D3D3,4,624
+0.99,0,87,King Edward VI Camp Hill School for Boys,#D3D3D3,4,624
+0.99,0,88,King Edward VI Five Ways,#D3D3D3,4,624
+0.99,0,89,King Edward VI Handsworth Grammar School for Boys,#D3D3D3,4,624
+0.99,0,90,King Edward VI Handsworth School,#D3D3D3,4,624
+0.99,0,91,Sutton Coldfield Grammar School for Girls,#D3D3D3,4,624
+0.99,0,92,Herschel Grammar School,#D3D3D3,4,1243
+0.99,0,93,LANGLEY GRAMMAR SCHOOL,#D3D3D3,4,1243
+0.99,0,94,St Bernard's Catholic Grammar School,#D3D3D3,4,1243
+0.99,0,95,Upton Court Grammar School,#D3D3D3,4,1243
+0.99,0,96,Altrincham Grammar School for Boys,#D3D3D3,4,944
+0.99,0,97,Sale Grammar School,#D3D3D3,4,841
+0.99,0,98,Stretford Grammar School,#D3D3D3,4,789
+0.99,0,99,Altrincham Grammar School for Girls,#D3D3D3,4,713
+0.99,0,100,Urmston Grammar,#D3D3D3,4,657
+0.99,0,101,Chatham Grammar School for Girls,#D3D3D3,4,641
+0.99,0,102,Fort Pitt Grammar School,#D3D3D3,4,641
+0.99,0,103,Holcombe Grammar School,#D3D3D3,4,641
+0.99,0,104,RAINHAM MARK GRAMMAR SCHOOL,#D3D3D3,4,641
+0.99,0,105,Rochester Grammar School,#D3D3D3,4,641
+0.99,0,106,SIR JOSEPH WILLIAMSONS MATHEMATICAL SCHOOL,#D3D3D3,4,641
+0.99,0,107,Queen Elizabeth's School,#D3D3D3,4,3433
+0.99,0,108,Alcester Grammar School,#D3D3D3,4,585
+0.99,0,109,KING EDWARD VI SCHOOL,#D3D3D3,4,585
+0.99,0,110,LAWRENCE SHERIFF SCHOOL,#D3D3D3,4,585
+0.99,0,111,Rugby High School,#D3D3D3,4,585
+0.99,0,112,Stratford Girls' Grammar School,#D3D3D3,4,585
+0.99,0,113,Denmark Road High School,#D3D3D3,4,381
+0.99,0,114,Marling School,#D3D3D3,4,381
+0.99,0,115,Pate's Grammar School,#D3D3D3,4,381
+0.99,0,116,Ribston Hall High School,#D3D3D3,4,381
+0.99,0,117,Sir Thomas Rich's School,#D3D3D3,4,381
+0.99,0,118,Stroud High School,#D3D3D3,4,381
+0.99,0,119,The Crypt School,#D3D3D3,4,381
+0.99,0,120,The Henrietta Barnett School,#D3D3D3,4,2649
+0.99,0,121,The Latymer School,#D3D3D3,4,2611
+0.99,0,122,Haberdashers' Adams,#D3D3D3,4,518
+0.99,0,123,Newport Girls' High School,#D3D3D3,4,518
+0.99,0,124,Queen Mary's Grammar School,#D3D3D3,4,518
+0.99,0,125,Queen Mary's High School,#D3D3D3,4,518
+0.99,0,126,Wolverhampton Girls' High,#D3D3D3,4,518
+0.99,0,127,Woodford County High School,#D3D3D3,4,1141
+0.99,0,128,Ilford County High School,#D3D3D3,4,1116
+0.99,0,129,West Kirby Grammar School,#D3D3D3,4,450
+0.99,0,130,WIRRAL  GRAMMAR SCHOOL FOR GIRLS,#D3D3D3,4,450
+0.99,0,131,Calday Grange Grammar School,#D3D3D3,4,410
+0.99,0,132,Wirral Grammar School for Boys,#D3D3D3,4,410
+0.99,0,133,Bournemouth School for Girls,#D3D3D3,4,428
+0.99,0,134,Bournemouth School,#D3D3D3,4,395
+0.99,0,135,Parkstone Grammar School,#D3D3D3,4,310
+0.99,0,136,Poole Grammar School,#D3D3D3,4,300
+0.99,0,137,KENDRICK SCHOOL,#D3D3D3,4,747
+0.99,0,138,Dover Grammar School for Girls,#D3D3D3,4,350
+0.99,0,139,Dover Grammar School for Boys,#D3D3D3,4,302
+0.99,0,140,Lancaster Royal Grammar School ,#D3D3D3,4,324
+0.99,0,141,Lancaster Girls' Grammar School,#D3D3D3,4,318
+0.99,0,142,Bacup and Rawtenstall Grammar,#D3D3D3,4,554
+0.99,0,143,Loreto Grammar School,#D3D3D3,4,554
+0.99,0,144,Upton Hall School,#D3D3D3,4,544
+0.99,0,145,Clitheroe Royal Grammar School,#D3D3D3,4,518
+0.99,0,146,Bishop Wordsworth's School,#D3D3D3,4,408
+0.99,0,147,Torquay Boys' Grammar School,#D3D3D3,4,405
+0.99,0,148,Devonport High School for Boys,#D3D3D3,4,402
+0.99,0,149,SOUTH WILTS GRAMMAR SCHOOL,#D3D3D3,4,377
+0.99,0,150,TORQUAY GIRLS GRAMMAR SCHOOL,#D3D3D3,4,372
+0.99,0,151,CHURSTON FERRERS GRAMMAR SCHOOL,#D3D3D3,4,287
+0.99,0,152,Ermysteds Grammar School,#D3D3D3,4,276
+0.99,0,153,St Michaels Catholic Grammar School,#D3D3D3,4,275
+0.99,0,154,Queen Elizabeth Grammar School Penrith,#D3D3D3,4,271
+0.99,0,155,Borden Grammar School,#D3D3D3,4,253
+0.99,0,156,Ripon Grammar School,#D3D3D3,4,247
+0.99,0,157,Devonport High School for Girls,#D3D3D3,4,222
+0.99,0,158,Plymouth High School for Girls,#D3D3D3,4,222
+0.99,0,159,Chelmsford County High School for Girls,#D3D3D3,4,1225
+0.99,0,160,The Blue Coat School,#D3D3D3,4,1186
+0.99,0,161,Heckmondwike Grammar School,#D3D3D3,4,1100
+0.99,0,162,Reading School,#D3D3D3,4,1075
+0.99,0,163,North Halifax Grammar School,#D3D3D3,4,603
+0.99,0,164,The Crossley Heath School,#D3D3D3,4,603
+0.99,0,165,Colyton Grammar School,#D3D3D3,4,453
+0.99,0,166,Skipton Girls' High School,#D3D3D3,4,247
+0.99,0,167,Sutton Grammar School,#D3D3D3,4,7900
+0.99,0,168,NONSUCH HIGH SCHOOL FOR GIRLS,#D3D3D3,4,1919
+0.99,0,169,Wallington Girls High School,#D3D3D3,4,1919
+0.99,0,170,WALLINGTON COUNTY GRAMMAR SCHOOL,#D3D3D3,4,1230
+0.99,0,171,Wilson's School,#D3D3D3,4,1230
+0.99,0,172,COLCHESTER COUNTY HIGH SCHOOL,#D3D3D3,4,756
+0.99,0,173,Colchester Royal Grammar School,#D3D3D3,4,756
+0.99,0,174,"King Edward VI Grammar School, Chelmsford",#D3D3D3,4,756
+0.99,0,175,SOUTHEND H.S. FOR GIRLS,#D3D3D3,4,756
+0.99,0,176,SOUTHEND HIGH SCHOOL FOR BOYS,#D3D3D3,4,756
+0.99,0,177,Westcliff High School for Boys,#D3D3D3,4,756
+0.99,0,178,Westcliff High School for Girls,#D3D3D3,4,756
+0.99,0,179,TIFFIN SCHOOL,#D3D3D3,4,1677
+0.99,0,180,ST OLAVE'S GRAMMAR SCHOOL,#D3D3D3,4,1626
+0.99,0,181,The Tiffin Girls' School,#D3D3D3,4,1485
+0.99,0,182,NEWSTEAD WOOD SCHOOL,#D3D3D3,4,1288
+0.99,0,183,Saint Ambrose College,#D3D3D3,4,671
+0.99,0,184,St Anselm's College,#D3D3D3,4,571
+0.99,0,185,St. Joseph's College,#D3D3D3,4,469
+0.99,0,186,The Folkestone School for Girls,#D3D3D3,4,372
+0.99,0,187,The Harvey Grammar School,#D3D3D3,4,335
+0.99,0,188,"Mayfield Grammar School, Gravesend",#D3D3D3,4,415
+0.99,0,189,Highsted Grammar School,#D3D3D3,4,219

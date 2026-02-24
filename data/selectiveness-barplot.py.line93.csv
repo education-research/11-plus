@@ -1,0 +1,157 @@
+la_name,Selective,Total,pct
+Kent,242275,770631,0.31438522457570484
+Buckinghamshire,103441,277018,0.37340894815499354
+Lincolnshire,92660,361098,0.25660623985732406
+Birmingham,55409,622807,0.08896656588638213
+Trafford,53724,142533,0.3769232388289028
+Wirral,46333,162670,0.28482817975041497
+Medway,45176,149976,0.3012215287779378
+Gloucestershire,44535,301925,0.1475035190858657
+Sutton,39409,140379,0.28073287315054246
+Bexley,35982,144913,0.24830070456066744
+Southend-on-Sea,31433,101101,0.3109069148673109
+Lancashire,27471,588180,0.046705090278486176
+Slough,27012,98444,0.27438950062979967
+Warwickshire,26678,279885,0.09531771977776587
+Essex,25659,702851,0.03650702638254765
+Torbay,20491,67648,0.30290622043519394
+Plymouth,18936,125458,0.15093497425433214
+Barnet,17809,191394,0.09304889390472011
+"Bournemouth, Christchurch and Poole",17742,98718,0.1797240624810065
+North Yorkshire,16539,283469,0.058345004215628514
+Calderdale,15597,124784,0.12499198615207077
+Kingston upon Thames,15337,80890,0.18960316479169242
+Redbridge,14338,172934,0.08291024321417419
+Wiltshire,13169,228166,0.05771675008546409
+Bromley,12830,160577,0.07989936292246087
+Walsall,12219,160414,0.07617165584051268
+Reading,11011,61673,0.1785384203784476
+Telford and Wrekin,9627,98529,0.09770727400054806
+Kirklees,8773,223004,0.03934010152284264
+Enfield,8561,170183,0.050304672029521165
+Liverpool,7226,225474,0.03204804101581557
+Poole,7177,26779,0.2680085141342096
+Stoke-on-Trent,6766,120285,0.05624974020035749
+Wolverhampton,6535,141381,0.0462226183150494
+Bournemouth,6353,32326,0.19652910969498236
+Devon,6320,320167,0.01973969834492624
+Cumbria,5563,207713,0.026782146519476392
+Westmorland and Furness,802,12320,0.0650974025974026
+Hertfordshire,0,626121,0.0
+Hampshire,0,609579,0.0
+Surrey,0,501399,0.0
+Staffordshire,0,404311,0.0
+Nottinghamshire,0,388118,0.0
+Leeds,0,385807,0.0
+West Sussex,0,381936,0.0
+Norfolk,0,378672,0.0
+Derbyshire,0,351487,0.0
+Leicestershire,0,337882,0.0
+Suffolk,0,335490,0.0
+Bradford,0,300288,0.0
+Oxfordshire,0,300084,0.0
+Cambridgeshire,0,276995,0.0
+Manchester,0,262987,0.0
+Worcestershire,0,258692,0.0
+Sheffield,0,253878,0.0
+Cornwall,0,250225,0.0
+Northamptonshire,0,239213,0.0
+Somerset,0,233525,0.0
+County Durham,0,228525,0.0
+East Sussex,0,225055,0.0
+Newham,0,195399,0.0
+Sandwell,0,187545,0.0
+Cheshire East,0,179589,0.0
+Leicester,0,179189,0.0
+Dorset,0,178784,0.0
+Coventry,0,173804,0.0
+"Bristol, City of",0,172120,0.0
+Wakefield,0,171400,0.0
+Bolton,0,167277,0.0
+Croydon,0,165881,0.0
+Wigan,0,164236,0.0
+Cheshire West and Chester,0,162721,0.0
+Dudley,0,155834,0.0
+East Riding of Yorkshire,0,152732,0.0
+Hillingdon,0,152581,0.0
+Rotherham,0,150362,0.0
+Milton Keynes,0,147620,0.0
+Ealing,0,147150,0.0
+Doncaster,0,146944,0.0
+Oldham,0,146109,0.0
+Northumberland,0,142358,0.0
+Solihull,0,142127,0.0
+Brent,0,142056,0.0
+Derby,0,140396,0.0
+Nottingham,0,137231,0.0
+Shropshire,0,134982,0.0
+Havering,0,132901,0.0
+Southwark,0,132754,0.0
+Stockport,0,132606,0.0
+Hounslow,0,132587,0.0
+Sefton,0,131974,0.0
+Sunderland,0,130118,0.0
+Central Bedfordshire,0,130020,0.0
+Tower Hamlets,0,129994,0.0
+Luton,0,129082,0.0
+Barking and Dagenham,0,127199,0.0
+"Kingston upon Hull, City of",0,124985,0.0
+Tameside,0,124101,0.0
+Waltham Forest,0,123828,0.0
+Greenwich,0,123015,0.0
+Peterborough,0,120892,0.0
+South Gloucestershire,0,120639,0.0
+Newcastle upon Tyne,0,120252,0.0
+Rochdale,0,117468,0.0
+Haringey,0,113433,0.0
+Warrington,0,111121,0.0
+Harrow,0,110038,0.0
+Barnsley,0,106829,0.0
+Hackney,0,106479,0.0
+Salford,0,105472,0.0
+Swindon,0,104942,0.0
+Brighton and Hove,0,104699,0.0
+North Somerset,0,103868,0.0
+Lewisham,0,102933,0.0
+Lambeth,0,102281,0.0
+Southampton,0,101440,0.0
+Bury,0,100585,0.0
+Stockton-on-Tees,0,98346,0.0
+Bath and North East Somerset,0,97674,0.0
+North Tyneside,0,94195,0.0
+Bedford,0,92827,0.0
+Blackburn with Darwen,0,91602,0.0
+Gateshead,0,91103,0.0
+Thurrock,0,90467,0.0
+West Berkshire,0,86916,0.0
+St. Helens,0,86905,0.0
+North Lincolnshire,0,86589,0.0
+Wandsworth,0,85520,0.0
+Wokingham,0,85233,0.0
+Portsmouth,0,83775,0.0
+York,0,82988,0.0
+Richmond upon Thames,0,80436,0.0
+"Herefordshire, County of",0,79979,0.0
+Westminster,0,78147,0.0
+North East Lincolnshire,0,76743,0.0
+Windsor and Maidenhead,0,74543,0.0
+Merton,0,73724,0.0
+West Northamptonshire,0,73408,0.0
+Redcar and Cleveland,0,72528,0.0
+South Tyneside,0,71543,0.0
+Camden,0,70571,0.0
+Middlesbrough,0,70369,0.0
+Halton,0,66749,0.0
+Islington,0,66177,0.0
+Hammersmith and Fulham,0,63618,0.0
+North Northamptonshire,0,61387,0.0
+Blackpool,0,57580,0.0
+Bracknell Forest,0,57445,0.0
+Isle of Wight,0,55468,0.0
+Darlington,0,53799,0.0
+Knowsley,0,49020,0.0
+Hartlepool,0,48602,0.0
+Kensington and Chelsea,0,42354,0.0
+Rutland,0,24142,0.0
+Cumberland,0,14922,0.0
+Isles of Scilly,0,879,0.0
