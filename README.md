@@ -21,7 +21,7 @@ This section calculates the effect size for three different sources of bias on t
 The file structure is very simple. Python scripts are in the top-level directory. Below that is a 'data' directory where both input and processed output data as well as any figures used in the paper are held. Output files are named after the script and line they were created so, for example, [yorks-stats-table.py-line72.csv](https://github.com/education-research/11-plus/blob/main/data/yorks-stats-table.py-line72.csv) is a table output by the yorks-stats-table.py at line 72. (Line numbers may drift.) This makes it easier to find the origin of an output file. 
 The following sections provide a short description of the code.
 ### bucks-pp-effect.py
-This takes two data sources, the scores of all candidates sitting the test in Buckinghamshire in 2017 and 2018 and the scores of just those entitled to free school meals. These are combined into a single dataset and the [normalised distributions of each group](https://github.com/education-research/11-plus/blob/main/data/bucks-pp-effect.py-line184.png) plotted so they can be visually compared.
+This takes two data sources, the scores of all candidates sitting the test in Buckinghamshire in 2017 and 2018 and the scores of just those entitled to free school meals. These are combined into a single dataset and the [normalised distributions](https://github.com/education-research/11-plus/blob/main/data/bucks-pp-effect.py-line184.png) for each 'treatment' plotted so they can be visually compared.
 ### class_acc.py
 This repeats and corrects an illustration by Coe et al (2008) of the classification accuracy for a test with 0.7 validity concluding about [20.8% are misclassified](https://github.com/education-research/11-plus/blob/main/data/class_acc.py_line142.png). 
 ### download-times-top.py
@@ -31,7 +31,7 @@ This takes the data downloaded by the above, calculates correlations, and plots 
 ### effect_size_plots.py
 This plots [the effect sizes](https://github.com/education-research/11-plus/blob/main/data/effect_size_plots.py_line62.png) for a control group and the effect of: i) Coaching, ii) Age-in-cohort, iii) Free School Meals eligibility. 
 ### feldt.py
-Feldt et al (1985) calculated Standard Error of Measurement five different ways to demonstrate that SEM is higher in the middle of a range of scores. The similarity between each was remarkable but they published these results in some rather dull tables. The [output of this script](https://github.com/education-research/11-plus/blob/main/data/feldt.png) brings their results to life.
+Feldt et al (1985) calculated Standard Error of Measurement five different ways to demonstrate that SEM is higher in the middle of a range of scores. The similarity between each was remarkable but they published these results in some rather dull tables. The [output](https://github.com/education-research/11-plus/blob/main/data/feldt.png) of this script brings their results to life.
 ### lincs-gla-log-odds.py
 One commercial test provider claimed to have discover a new "proprietary" way to determine statistical bias. This script dispels that myth by calculating this the normal way, using linear regression, then comparing the claimed proprietary method against the orthodox. The former includes a log-odds transformation, published by Ian Schagan (1990). 
 ### lincs-kent-regression.py
@@ -41,7 +41,7 @@ Historically, age in cohort was adjusted by grouping candidates by birth month, 
 ### parliament-figures.py
 Parliamentary researches provided the figures for the number of grammar schools and percentage of children they educate since 1965 (Danechi et al). This combines both sources on [a single plot](https://github.com/education-research/11-plus/blob/main/data/parliament-figures.py.png) illustrating how these have diverged over time. 
 ### sankey_nuts.py
-This script got its name because anyone needs to be a bit crazy to attempt to plot the number of candidates sitting the 11-plus broken down by local authority/consortia/individual school and test provider and individual school. The output is a 4MB dynamic HTML file which is too big for GitHub to display. Here is a [static image](https://github.com/education-research/11-plus/blob/main/data/11%2Bsankey-port(2125x3400).png) of the dynamic plot. 
+This script got its name because anyone needs to be a bit crazy to attempt to plot the number of candidates sitting the 11-plus broken down by local authority/consortia/individual school and test provider and individual school. The output is a 4MB dynamic HTML file which is too big for GitHub to display. Here is a [static image](https://github.com/education-research/11-plus/blob/main/data/11%2Bsankey-port(2125x3400).png) of the plot. 
 ### selectiveness-barplot.py
 ### selectiveness-choropleth.py
 Over two thirds of English local authorities have no grammar schools. The proportions, in the others ranges from a couple of percent to over two thirds of all school places. These two scripts take this data and plot it both as a horizontal bar graph and a choropleth map showing location and intensity of selection. 
