@@ -9,13 +9,13 @@ The paper concludes that the 11-plus is not fit for purpose. We defer to existin
 Socio-Economic Circumstances; Social Justice/equity; Education Policy; Political Economic and Cultural Contexts; Secondary education; Assessment; Quantitative Methods; Exploratory studies
 ## Structure of the paper.
 The statutory guidance for admissions to state funded schools in England is based on three key criteria: transparency, objectivity, and fairness. Academically selective admissions are predicated on the admissions test (commonly called "the 11-plus".) The paper investigates how these key criteria are met. Underpinning that are several appendixes which cover the quantitative research. A brief description of each follows.
-## 11-plus survey
+#### 11-plus survey
 Over 90% of secondary schools now determine their own admission arrangements. The proportion for selective "grammar" schools is 95%. The test is not regulated by Ofqual or monitored by the Department for Education. The research captures the size and cost of the 2024 test. [The results](https://github.com/education-research/11-plus/blob/main/data/2024-11-plus-survey-results.xlsx) are shared in this repository. 
-## Reliability and Validity
+#### Reliability and Validity
 Information on the reliability and validity of this high-stakes test is not disclosed by the grammar schools and/or test providers. This section calculates occasion reliability and confidence intervals and the classification accuracy of the test, both for a single candidate and for selecting a cohort predicted to do well in their final exams. 
-## School Measures
+#### School Measures
 Since the 1980s both Conservative and Labour governments policy has been based on the belief that the delivery of public services is always improved by adding competition. School funding is per capita. Parent "consumers" express their preferences for a given school, informed by "league tables" based on raw exam results. This research compared the "top 400 state schools" published by the leading newspaper against DfE prior attainment figures and found a 95% correlation. At the same time, schools are allowed to select which students they admit, which even the ardent neo-liberal would have to agree is rather dumb.
-## Measurement Bias
+#### Measurement Bias
 This section calculates the effect size for three different sources of bias on test scores: i) Coaching, ii) Relative age, iii) Free School Meals eligibility (commonly used as an indicator of children from under-resourced backgrounds. Nothing can be done about coaching beyond acknowledging that the statutory requirement that the test *must* give an accurate reflection of the child’s ability or aptitude is not achievable. It is possible to adjust for the other two measures. We note that age-in-cohort has been adjusted for over a hundred years. Socio-economic status has seven or eight time the effect but this is not adjusted. 
 # The data and code. 
 The file structure is very simple. Python scripts are in the top-level directory. Below that is a 'data' directory where both input and processed output data as well as any figures used in the paper are held. Output files are named after the script and line they were created so, for example, [yorks-stats-table.py-line72.csv](https://github.com/education-research/11-plus/blob/main/data/yorks-stats-table.py-line72.csv) is a table output by the yorks-stats-table.py at line 72. (Line numbers may drift.) This makes it easier to find the origin of an output file. 
