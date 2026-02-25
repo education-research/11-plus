@@ -8,7 +8,7 @@ The paper concludes that the 11-plus is not fit for purpose. We defer to existin
 ## Keywords
 Socio-Economic Circumstances; Social Justice/equity; Education Policy; Political Economic and Cultural Contexts; Secondary education; Assessment; Quantitative Methods; Exploratory studies
 ## Structure of the paper.
-The statutory guidance for admissions to state funded schools in England is based on three key criteria: transparency, objectivity, and fairness. Academically selective admissions are predicated on the admissions test (commonly called "the 11-plus".) The paper investigates how these key criteria are met. Underpinning that are several appendixes which cover the quantitative research briefly 
+The statutory guidance for admissions to state funded schools in England is based on three key criteria: transparency, objectivity, and fairness. Academically selective admissions are predicated on the admissions test (commonly called "the 11-plus".) The paper investigates how these key criteria are met. Underpinning that are several appendixes which cover the quantitative research. A brief description of each follows.
 ## 11-plus survey
 Over 90% of secondary schools now determine their own admission arrangements. The proportion for selective "grammar" schools is 95%. The test is not regulated by Ofqual or monitored by the Department for Education. The research captures the size and cost of the 2024 test. [The results](https://github.com/education-research/11-plus/blob/main/data/2024-11-plus-survey-results.xlsx) are shared in this repository. 
 ## Reliability and Validity
