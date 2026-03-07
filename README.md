@@ -18,7 +18,7 @@ Since the 1980s both Conservative and Labour governments policy has been based o
 #### Measurement Bias
 This section calculates the effect size for three different sources of bias on test scores: i) Coaching, ii) Relative age, iii) Free School Meals eligibility (commonly used as an indicator of children from under-resourced backgrounds. Nothing can be done about coaching beyond acknowledging that the statutory requirement that the test *must* give an accurate reflection of the child’s ability or aptitude is not achievable. It is possible to adjust for the other two measures. We note that age-in-cohort has been adjusted for over a hundred years. Socio-economic status has seven or eight time the effect but this is not adjusted. 
 # The data and code. 
-The file structure is very simple. Python scripts are in the top-level directory. Below that is a 'data' directory where both input and processed output data as well as any figures used in the paper are held. Output files are named after the script and line they were created so, for example, [yorks-stats-table.py-line72.csv](https://github.com/education-research/11-plus/blob/main/data/yorks-stats-table.py-line72.csv) is a table output by the yorks-stats-table.py at line 72. (Line numbers may drift.) This makes it easier to find the origin of an output file. 
+The file structure for this repository is very simple. Python scripts are in the top-level directory. Input and output data, including figures used in the paper, is all in a 'data' directory which the code expects to find below its working directory. The code is best run in a IDE/REPL a few lines at a time to identify when something isn't quite where expected. Output files are named after the script and line they were created so, for example, [yorks-stats-table.py-line72.csv](https://github.com/education-research/11-plus/blob/main/data/yorks-stats-table.py-line72.csv) is a table output by the yorks-stats-table.py at line 72. (Line numbers may drift.) This makes it easier to find the origin of an output file. 
 The following sections provide a short description of the code.
 #### bucks-pp-effect.py
 This takes two data sources, the scores of all candidates sitting the test in Buckinghamshire in 2017 and 2018 and the scores of just those entitled to free school meals. These are combined into a single dataset and the [normalised distributions](https://github.com/education-research/11-plus/blob/main/data/bucks-pp-effect.py-line184.png) for each 'treatment' plotted so they can be visually compared.
@@ -51,5 +51,6 @@ These two scripts take official data and use it to determine the increase in [sc
 #### yorks-scatter-plots.py
 #### yorks-stats-table.py
 These scripts process the data provided by North Yorks council used to work out the occasion reliability of 11-plus tests repeated one week apart. 
+## Schools Pupils and Characteristics.
 
 
