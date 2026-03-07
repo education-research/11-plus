@@ -42,14 +42,11 @@ Historically, age in cohort was adjusted by grouping candidates by birth month, 
 Parliamentary researches provided the figures for the number of grammar schools and percentage of children they educate since 1965 (Danechi et al). This combines both sources on [a single plot](https://github.com/education-research/11-plus/blob/main/data/parliament-figures.py.png) illustrating how these have diverged over time. 
 #### sankey_nuts.py
 This script got its name because anyone needs to be a bit crazy to attempt to plot the number of candidates sitting the 11-plus broken down by local authority/consortia/individual school and test provider and individual school. The output is a 4MB dynamic HTML file which is too big for GitHub to display. Here is a [static image](https://github.com/education-research/11-plus/blob/main/data/11%2Bsankey-port(2125x3400).png) of the plot. 
-#### selectiveness-barplot.py
-#### selectiveness-choropleth.py
+#### selectiveness-barplot.py & selectiveness-choropleth.py
 Over two thirds of English local authorities have no grammar schools. The proportions, in the others ranges from a couple of percent to over two thirds of all school places. These two scripts take this data and plot it both as a horizontal bar graph and a choropleth map showing location and intensity of selection. 
-#### SPC.parse.py
-#### Y6-numbers.py
+#### SPC.parse.py & Y6-numbers.py
 These two scripts take official data and use it to determine the increase in [schools determining own admissions]( https://github.com/education-research/11-plus/blob/main/data/SPC.parse.py_line_116.png) arrangements since 2010 as well as the number of children in the cohort that sit the 11-plus (in their final year at primary school). 
-#### yorks-scatter-plots.py
-#### yorks-stats-table.py
+#### yorks-scatter-plots.py & yorks-stats-table.py
 These scripts process the data provided by North Yorks council used to work out the occasion reliability of 11-plus tests repeated one week apart. 
 ## Department for Education routine data publications.
 From 2010 to 2022 the Department for Education published demographic pupil data aggregated _to_school_level_ in a dataset called Schools Pupils and Characteristics (SPC). They still publish a [dataset](https://explore-education-statistics.service.gov.uk/find-statistics/school-pupils-and-their-characteristics) of that name. The information is aggregated to local authority level but also now includes previous years. The DfE no longer publish a single dataset aggregated to school level but the “Get Information About Schools” (GIAS) service provides an API that returns about 1500 school level attributes. The [gias](https://github.com/education-research/11-plus/tree/main/gias) directory contains the following three scripts which capture the school level data for secondary schools.
