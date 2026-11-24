@@ -10,15 +10,20 @@ Data relating to the English 11-plus test is generally exceedingly difficult to 
 - Copies of official data openly published by the Department for Education (but not always easy to find.) 
 ## The code.
 The code is 100% Python. Github incorrectly reports 98% HTML because there is ONE dynamic HTML file. This displays a dynamic Sankey diagram in a web browser but it's ONE (huge) file!
+
 The code will run under any text based Python installation eg Pycharm, IPython, Visual Studio etc. or even at the command line. 
+
 Most code would probably run if cut and paste into Jupyter Console. I think the graphing environment in the web gui would need some customisation.
+
 Initially all scripts read any input data from the ./data on local drive. Scripts are all being modified to directly load data from this github repository. 
+
 Scripts also output results to the local ./data directory. With hindsight, calling this ./output would have been more sensible! Scripts are also being modified to do that. If ./output doesn't exist, scripts *will* crash!
-The traditional format for papers is typically 
+
+The traditional format for papers is typically something like:
 - Introduction
 - Methodology
--   Data collection
--   Data analysis
+  - Data collection
+  - Data analysis
 - Results
 - Discussion. 
 The code documents the methodology. Running it creates the results. Each script has comments saying what it does and why but if something is not clear please get in touch via [Discussions](https://github.com/education-research/11-plus/discussions/1.)
