@@ -1,5 +1,5 @@
 # High Stakes Academic Selection in England. 
-The data and code underpinning independent research into the "11-plus" school admissions tests used by schools in England. This is currently under blind peer review so there is no information here linking to the author but anonymous contact is possible via [Discussions](https://github.com/education-research/11-plus/discussions/1.). 
+The data and code underpinning independent research into the "11-plus" school admissions tests used by schools in England. This is currently under blind peer review so no information here links to the author but anonymous contact is possible via [Discussions](https://github.com/education-research/11-plus/discussions/1.). 
 
 *Keywords*: Socio-Economic Circumstances; Social Justice/equity; Education Policy; Political Economic and Cultural Contexts; Secondary education; Assessment; Quantitative Methods; Exploratory studies
 ## The data.
