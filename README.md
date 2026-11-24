@@ -2,7 +2,7 @@
 The data and code underpinning research into the "11-plus" school admissions tests used by schools in England. 
 *Keywords*: Socio-Economic Circumstances; Social Justice/equity; Education Policy; Political Economic and Cultural Contexts; Secondary education; Assessment; Quantitative Methods; Exploratory studies
 ## The data.
-Any data relating to the English 11-plus test is generally exceedingly difficult to obtain for independent research and there are some gems here! 
+Data relating to the English 11-plus test is generally exceedingly difficult to obtain for independent research but there are some gems here! 
 - These include
   - Test results linked to candidates Free School Meal entitlement (a useful if somewhat crude indicator of children from lower socio-economic groups)
   - Results linked to IDACI (Income Deprivation Affecting Children Index, a continual measure of SES.) 
