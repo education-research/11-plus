@@ -1,0 +1,45 @@
+# This needs revising after reviewing all scripts
+MO is to include the script name and line number in any output so it can be traced back to the code which generated it. 
+This readme provides a short description of each script (NEEDS TO BE UPDATED after final versions of code have been uploaded.) 
+#### bucks-pp-effect.py
+This takes two data sources, the scores of all candidates sitting the test in Buckinghamshire in 2017 and 2018 and the scores of just those entitled to free school meals. These are combined into a single dataset and the [normalised distributions](https://github.com/education-research/11-plus/blob/main/data/bucks-pp-effect.py-line184.png) for each 'treatment' plotted so they can be visually compared.
+#### class_acc.py
+This repeats and corrects an illustration by Coe et al (2008) of the classification accuracy for a test with 0.7 validity concluding about [20.8% are misclassified](https://github.com/education-research/11-plus/blob/main/data/class_acc.py_line142.png). 
+#### download-times-top.py
+This script downloads the 2024 "top 400 state schools" as published by the newspaper.
+#### ParentPowerPlot-v2.py
+This takes the data downloaded by the above, calculates correlations, and plots it against official DfE data.
+#### effect_size_plots.py
+This plots [the effect sizes](https://github.com/education-research/11-plus/blob/main/data/effect_size_plots.py_line62.png) for a control group and the effect of: i) Coaching, ii) Age-in-cohort, iii) Free School Meals eligibility. 
+#### feldt.py
+Feldt et al (1985) calculated Standard Error of Measurement five different ways to demonstrate that SEM is higher in the middle of a range of scores. The similarity between each was remarkable but they published these results in some rather dull tables. The [output](https://github.com/education-research/11-plus/blob/main/data/feldt.png) of this script brings their results to life.
+#### lincs-gla-log-odds.py
+One commercial test provider claimed to have discover a new "proprietary" way to determine statistical bias. This script dispels that myth by calculating this the normal way, using linear regression, then comparing the claimed proprietary method against the orthodox. The former includes a log-odds transformation, published by Ian Schagan (1990). 
+#### lincs-kent-regression.py
+This applies linear regression to multiple sources of data on the 11-plus test where candidates' ages are known to determine a more robust measure of the effect of age within cohort. The results are remarkably similar to other studies, eg Crawford et al (2007)
+#### lincs-thomson.py
+Historically, age in cohort was adjusted by grouping candidates by birth month, using Ordinary Least Squares to find the best fit, and Legrange’s interpolation to fill in the gaps and create a lookup table. This method scaled very well before computer programs emerged in the 1990s to automate this. This script creates a [neat illustration](https://github.com/education-research/11-plus/blob/main/data/thomson-violin.py_line106.png) of how this method works using current data. 
+#### parliament-figures.py
+Parliamentary researches provided the figures for the number of grammar schools and percentage of children they educate since 1965 (Danechi et al). This combines both sources on [a single plot](https://github.com/education-research/11-plus/blob/main/data/parliament-figures.py.png) illustrating how these have diverged over time. 
+#### sankey_nuts.py
+This script got its name because anyone needs to be a bit crazy to attempt to plot the number of candidates sitting the 11-plus broken down by local authority/consortia/individual school and test provider and individual school. The output is a 4MB dynamic HTML file which is too big for GitHub to display. Here is a [static image](https://github.com/education-research/11-plus/blob/main/data/11%2Bsankey-port(2125x3400).png) of the plot. 
+#### selectiveness-barplot.py & selectiveness-choropleth.py
+Over two thirds of English local authorities have no grammar schools. The proportions, in the others ranges from a couple of percent to over two thirds of all school places. These two scripts take this data and plot it both as a horizontal bar graph and a choropleth map showing location and intensity of selection. 
+#### SPC.parse.py & Y6-numbers.py
+These two scripts take official data and use it to determine the increase in [schools determining own admissions]( https://github.com/education-research/11-plus/blob/main/data/SPC.parse.py_line_116.png) arrangements since 2010 as well as the number of children in the cohort that sit the 11-plus (in their final year at primary school). 
+#### yorks-scatter-plots.py & yorks-stats-table.py
+These scripts process the data provided by North Yorks council used to work out the occasion reliability of 11-plus tests repeated one week apart. 
+## Department for Education routine data publications.
+From 2010 to 2022 the Department for Education published demographic pupil data aggregated _to_school_level_ in a dataset called Schools Pupils and Characteristics (SPC). They still publish a [dataset](https://explore-education-statistics.service.gov.uk/find-statistics/school-pupils-and-their-characteristics) of that name. The information is aggregated to local authority level but also now includes previous years. The DfE no longer publish a single dataset aggregated to school level but the “Get Information About Schools” (GIAS) service provides an API that returns about 1500 school level attributes. The [gias](https://github.com/education-research/11-plus/tree/main/gias) directory contains the following three scripts which capture the school level data for secondary schools.
+#### getURNs.py
+English schools are identified by a Unique Reference Number (URN) although each time the legal status of the school changes this *may* be replaced so calling it unique is a bit of a stretch. Schools are also identified by a concatenation of the Local Authority and school code ... which is also inconsistent. Perhaps due to deregulation the most consistent attribute of an English school seems to be its post code. The GIAS API returns data about a school based on its URN so the first step is to collate a list of valid ones. This script semi-automates that process. (If the orginal data is downloaded on a Windows PC to the default loction it should be able to extract the latest data.) The script filters the data to just include mainstream secondary schools that haven't "closed" as they're converted to Academies. Output is written to ~/data/URNs.csv. 
+#### download.py
+This iterates over each row in URNs.csv, calls the API and downloads the individual school data to ~/data/csv/*. It'll fail if the directory isn't created! Probably a good idea to manually edit URNs.csv to test with just a dozen schools before trying to run this for all 3,000 odd. 
+#### extract.py
+This takes all the downloaded school level data and does 3,000 odd outer joins to end up with a single table containing all the data for all the schools. This is written to a CSV file with the current date. Rows contain attributes and columns contain schools (because that's the way the DfE's API provide the data.) If processing in Excel a good tip is to create a new column to filter the wanted attributes then copy that to a new worksheet using paste special "transpose" so the rows become schools and the columns the attributes. This script doesn't tidy up after itself. The GIAS API only returns "this year's" data. By not tidying up there is a potential to examine the data longitudinally. Wish I'd thought of that a few years ago. :-) (The API is relatively new.) 
+#### Covid!
+The GIAS API returns school level prior attainment measures based on the KS2 SATs taken by children in their final year at primary school. These exams were cancelled in 2020 and 2021. The relevant attributes are still in the database but they're empty. The most current secondary school level prior attainment figures are in the KS4_24 namespace. This reflects the cohorts that took GCSEs in 2024 and SATs in 2019. Fortunately, in true Blue Peter fashion, I extracted these data on 10/12/2024. There are some additional data files in the repository. 
+#### Additional data
+The [gias/data](https://github.com/education-research/11-plus/tree/main/gias/data) directory contains old "SPC" datasets from 2010 to 2022 inclusive. These have been filtered to include just the ~3,000 secondary schools' data. DfE were not too consistent in column names or encoded values. (Credit where due, they appear to have vastly improved this in recent years.) This directory also contains the output of running the "GIAS" scripts on 10/12/2024 and 04/03/2026.  
+
+
