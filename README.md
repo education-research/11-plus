@@ -26,6 +26,7 @@ The traditional format for papers is typically something like:
   - Data analysis
 - Results
 - Discussion. 
+
 The code documents the methodology. Running it creates the results. Each script has comments saying what it does and why but if something is not clear please get in touch via [Discussions](https://github.com/education-research/11-plus/discussions/1.)
 Output results are either:
 - Data written as csv files. These will be modified to include the name of the script which generated them, or
