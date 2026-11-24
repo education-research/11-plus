@@ -1,5 +1,5 @@
 # High Stakes Academic Selection in England. 
-This repository contains the data and code behind underpinning research into the "11-plus" school admissions tests used by schools in England. 
+This repository contains the data and code underpinning research into the "11-plus" school admissions tests used by schools in England. 
 ## Keywords
 Socio-Economic Circumstances; Social Justice/equity; Education Policy; Political Economic and Cultural Contexts; Secondary education; Assessment; Quantitative Methods; Exploratory studies
 ## The data.
