@@ -1,6 +1,6 @@
 # This needs revising after reviewing all scripts
 MO is to include the script name and line number in any output so it can be traced back to the code which generated it. 
-This readme provides a short description of each script (NEEDS TO BE UPDATED after final versions of code have been uploaded.) 
+This readme provides a short description of each script.
 #### bucks-pp-effect.py
 This takes two data sources, the scores of all candidates sitting the test in Buckinghamshire in 2017 and 2018 and the scores of just those entitled to free school meals. These are combined into a single dataset and the [normalised distributions](https://github.com/education-research/11-plus/blob/main/data/bucks-pp-effect.py-line184.png) for each 'treatment' plotted so they can be visually compared.
 #### class_acc.py
@@ -29,7 +29,7 @@ Over two thirds of English local authorities have no grammar schools. The propor
 These two scripts take official data and use it to determine the increase in [schools determining own admissions]( https://github.com/education-research/11-plus/blob/main/data/SPC.parse.py_line_116.png) arrangements since 2010 as well as the number of children in the cohort that sit the 11-plus (in their final year at primary school). 
 #### yorks-scatter-plots.py & yorks-stats-table.py
 These scripts process the data provided by North Yorks council used to work out the occasion reliability of 11-plus tests repeated one week apart. 
-## Department for Education routine data publications.
+## Department for Education routine data publications. 
 From 2010 to 2022 the Department for Education published demographic pupil data aggregated _to_school_level_ in a dataset called Schools Pupils and Characteristics (SPC). They still publish a [dataset](https://explore-education-statistics.service.gov.uk/find-statistics/school-pupils-and-their-characteristics) of that name. The information is aggregated to local authority level but also now includes previous years. The DfE no longer publish a single dataset aggregated to school level but the “Get Information About Schools” (GIAS) service provides an API that returns about 1500 school level attributes. The [gias](https://github.com/education-research/11-plus/tree/main/gias) directory contains the following three scripts which capture the school level data for secondary schools.
 #### getURNs.py
 English schools are identified by a Unique Reference Number (URN) although each time the legal status of the school changes this *may* be replaced so calling it unique is a bit of a stretch. Schools are also identified by a concatenation of the Local Authority and school code ... which is also inconsistent. Perhaps due to deregulation the most consistent attribute of an English school seems to be its post code. The GIAS API returns data about a school based on its URN so the first step is to collate a list of valid ones. This script semi-automates that process. (If the orginal data is downloaded on a Windows PC to the default loction it should be able to extract the latest data.) The script filters the data to just include mainstream secondary schools that haven't "closed" as they're converted to Academies. Output is written to ~/data/URNs.csv. 
