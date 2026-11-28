@@ -19,7 +19,7 @@ from time import sleep
 # matplotlib.use('Qt5Agg')
 
 outdir = 'Bias_effect_size/output/'
-csv = 'https://github.com/education-research/11-plus/blob/main/data/Kent_FOI_59020546.csv?raw=true'
+csv = 'https://github.com/education-research/11-plus/blob/main/Bias_effect_size/data/Kent_FOI_59020546.csv?raw=true'
 # Load raw scores from data disclosed by FOI
 kent = pd.read_csv(csv, usecols=['Week of birth', 'Raw Maths', 'Raw English', 'Raw Reasoning'])
 kent.columns = ['WoB', 'Maths', 'English', 'Reasoning']
@@ -27,7 +27,7 @@ sleep(2)  # Github can get stroppy if data is requested too quickly.
 
 # There were 12 identifiable data subjects in the data disclosed by Lincs, despite very clear instructions to
 # remove these! This "anon" version is as disclosed but with these records removed.
-csv = 'https://github.com/education-research/11-plus/blob/main/data/Lincs_n=4267-anon.csv?raw=true'
+csv = 'https://github.com/education-research/11-plus/blob/main/Bias_effect_size/data/Lincs_n=4267-anon.csv?raw=true'
 lincs = pd.read_csv(csv, usecols=['WOB', 'VRTotalRawScore', 'NVTotalRawScore'])
 lincs.columns = ['WoB', 'Verbal_Reasoning', 'Non_Verbal_Reasoning']
 

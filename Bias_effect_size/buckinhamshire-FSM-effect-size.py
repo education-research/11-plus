@@ -40,7 +40,7 @@ outdir = 'Bias_effect_size/output/'
 print('Loading data and removing out of county records')
 
 # Load the FSM6 data files, make initial count, drop out of county and print numbers.
-fsm17 = pd.read_csv('https://github.com/education-research/11-plus/blob/main/data/Bucks-FSM6-2017.csv?raw=true')
+fsm17 = pd.read_csv('https://github.com/education-research/11-plus/blob/main/Bias_effect_size/data/Bucks-FSM6-2017.csv?raw=true')
 
 # Make a note of how many, filter out the few out of county, print how many remain
 n = len(fsm17)
@@ -48,7 +48,7 @@ fsm17 = fsm17.loc[(fsm17.Home == 'Buckinghamshire')]
 print('2017: Out of a total', n, 'PP-eligible candidates,', len(fsm17), 'are "in county"')
 
 # ... same again for 2018
-fsm18 = pd.read_csv('https://github.com/education-research/11-plus/blob/main/data/Bucks-FSM6-2018.csv?raw=true')
+fsm18 = pd.read_csv('https://github.com/education-research/11-plus/blob/main/Bias_effect_sizedata/Bucks-FSM6-2018.csv?raw=true')
 n = len(fsm18)
 fsm18 = fsm18.loc[(fsm18.Home == 'Buckinghamshire')]
 print('2018: Out of a total', n, 'PP-eligible candidates,', len(fsm18), 'are "in county"')
@@ -56,8 +56,8 @@ print('2018: Out of a total', n, 'PP-eligible candidates,', len(fsm18), 'are "in
 # The grammar schools publish test data in PDF format, contrary to s.11 of The Re-use of Public Sector Information
 # Regulations 2015! Results are published with various different candidate info but the ethnicity data was easiest to
 # parse and convert from PDF to CSV.
-csv17 = 'https://github.com/education-research/11-plus/blob/main/data/Bucks-2017_ethnicity.csv?raw=true'
-csv18 = 'https://github.com/education-research/11-plus/blob/main/data/Bucks-2018_ethnicity.csv?raw=true'
+csv17 = 'https://github.com/education-research/11-plus/blob/main/data/Bias_effect_sizedata/Bucks-2017_ethnicity.csv?raw=true'
+csv18 = 'https://github.com/education-research/11-plus/blob/main/data/Bias_effect_sizedata/Bucks-2018_ethnicity.csv?raw=true'
 
 all17 = pd.read_csv(csv17, usecols=['LA', 'STTS'])
 n = len(all17)
