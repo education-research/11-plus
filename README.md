@@ -1,37 +1,39 @@
 # High Stakes Academic Selection in England. 
-The data and code underpinning independent research into the "11-plus" school admissions tests used by schools in England. This is currently under blind peer review so no information here links to the author but anonymous contact is possible via [Discussions](https://github.com/education-research/11-plus/discussions/1.). 
 
-*Keywords*: Socio-Economic Circumstances; Social Justice/equity; Education Policy; Political Economic and Cultural Contexts; Secondary education; Assessment; Quantitative Methods; Exploratory studies
-## The data.
-Data relating to the English 11-plus test is incredibly difficult to source for independent research but there are some gems here which include
-- Test results linked to candidates Free School Meal entitlement (a useful if somewhat crude indicator of children from lower socio-economic groups)
-- Results linked to IDACI (Income Deprivation Affecting Children Index, a continuous rather than discrete measure of SES.) 
-- Results linked to candidates' age. (Relatively older children, born at the beginning of the school year, perform slightly better than their year group colleagues born towards the end of the year.)
+This repository contains the data and programs underpinning research into the academic selection tests still used by some schools in England to determine which pupils they will admit. The test is commonly called the “11-plus” test because it determines children’s education from that age onwards. Data relating to this plus test is exceedingly difficult to obtain for independent research but the authors have been very persistent.
 
-Also copies of relevant official data published by the Department for Education but not always easy to find.
-## The code.
-The code is **100% Python**. Github incorrectly reports 98% HTML due to ONE gargantuan DHTML file created by plotly which displays a dynamic Sankey diagram in a web browser! It seems GitHub determines what a repository contains based on total bytes rather than number of files.
+The 11-plus repository covers several studies. Each is organised under its own branch containing the relevant data, code and output. The overall structure looks like this:
 
-The code will run under any text based Python installation eg Pycharm, IPython, Visual Studio etc. or even at the command line. 
+11-plus/
+├── Bias effect size/
+│   ├── data/
+│   ├── code/
+│   └── output/
+├── Bias linear regression/
+│
+├── League Tables/
+│
+├── Reliability & Validity/
+│
+├── 2024 11-plus national survey/
+│
+├── Official data/
+│
+└── README.md
 
-Most code would probably run if cut and paste into Jupyter Console but the graphing environment would need some customisation. Jupyter looks pretty, but I'm not a fan.
+Programs are written in Python and will run under any text-based installation with the relevant libraries installed. Scripts read their input data directly from the repository but if running locally will require an ./output directory to write to.
 
-Initially all scripts read any input data they needed from the ./data on local drive. Code is all being modified to directly load data from this GitHub repository. I may miss some! Look for pd.read_csv() in the code.
+The output directory contains copies of all the output including material not in the paper. Data is normally output as a CSV file but includes a few Excel workbooks. Graphs are normally created as png files. Output file names reference the code that created them which in turn references the data used. This means any artefact in the output directory can be traced back to the data and code used to create it. A README file associated with each study contains a description of the data, its analysis, and the results. Openly publishing the data and code this way means the methods can be independently scrutinised and others are able to adapt and build on the work done.
 
-Scripts also output results to the local **./data** directory. With hindsight, calling this **./output** would have been a lot more sensible! Code is also being modified to change this path. If ./output (or possibly ./data) doesn't exist, scripts **will** 100% guaranteed crash!
+### Brief description of each study
 
-The traditional format for papers goes something like this:
-- Introduction
-- Methodology
-  - Data collection
-  - Data analysis
-- Results
-- Discussion. 
+| **Study** | **Description** |
+| --- | --- |
+| [Bias_effect_size](https://github.com/education-research/11-plus/tree/main/Bias_effect_size) | Data acquired for this research has enabled the effect sizes of candidates’ relative age and socio-economic status to be compared for the first time. Existing research on coaching has been used to work out the effect size enabling all three ‘interventions’ to be compared. |
+| [Bias_linear_regression](https://github.com/education-research/11-plus/tree/main/Bias_linear_regression) | This uses additional rare and difficult to source data with linear regression to quantify the impact of age and SES on final scores. (The linear regression doesn’t cover coaching because no suitable data exists.) |
+| [ParentPower](https://github.com/education-research/11-plus/tree/main/ParentPower)    | This section compares the “league tables” published by the Times Newspaper which describes itself as the definitive source of information on school performance but is based on raw exam results. Official data shows that over 90% of final results can be explained by prior intake. |
+| [Reliability_Validity](https://github.com/education-research/11-plus/tree/main/Reliability_Validity) |Calculates the reliability confidence interval of the test. Illustrates the classification accuracy of the test from the individual candidates’ perspective. (About 10% of candidates are incorrectly told they “fail” the test.)  |
+| [National_11+survey](https://github.com/education-research/11-plus/tree/main/National_11+survey)  National 11-plus survey | There is no official record of this test. We believe ours is the first national survey on the impact of this test. 123,601 11-plus tests were taken in 2024 at a cost of £3.2million, excluding administration which we estimate doubles the true cost. |
+| [Dept_for_Education](https://github.com/education-research/11-plus/tree/main/Dept_for_Education) | This section demonstrates how some of the longitudinal findings were derived from official government data. This information is in the public domain but not always easy to locate. |
 
-Each script has comments at the top saying what it does and why documenting the *Methodology*. Running it creates the *Results*. Between them this covers the 'evidence' sections of any paper, but if anything is not clear please get in touch via [Discussions](https://github.com/education-research/11-plus/discussions/1.)
-Output results are either:
-- Data written as csv files. These will be modified to include the name of the script which generated them, or
-- Graphs in png format. These already include the name of the script and line number so a graph can be traced back to the code and data used to create it.
-There are also lines of code commented out which write interim results to csv. Uncommenting them can help understand how the data is being processed. 
-## The structure of this repository
-Nov 2026 - reorganising this repository around four main directories: code, data, docs, output. (gias and spc contain copies of public domain data published by the DfE.) Contents of each should be self explanatory. I will add a README to the code and data directories. I also need to modify all the code to match this structure (reading data direct from github, writing to ./output, ensuring csv output data referencing the code which created them.) 
+The paper is currently under peer review. Anonymous contact can be made via [Discussions](https://github.com/education-research/11-plus/discussions/1.)
