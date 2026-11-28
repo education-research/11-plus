@@ -4,41 +4,12 @@ This repository contains the data and programs underpinning research into the ac
 
 The 11-plus repository covers several studies. Each is organised under its own branch containing the relevant data, code and output. The overall structure looks like this:
 
-11-plus/
+![Description](Structure_of_repository.png).
 
-├── Bias effect size/
-
-│   ├── data/
-
-│   ├── code/
-
-│   └── output/
-
-├── Bias linear regression/
-
-│
-
-├── League Tables/
-
-│
-
-├── Reliability & Validity/
-
-│
-
-├── 2024 11-plus national survey/
-
-│
-
-├── Official data/
-
-│
-
-└── README.md
 
 Programs are written in Python and will run under any text-based installation with the relevant libraries installed. Scripts read their input data directly from the repository but if running locally will require an ./output directory to write to.
 
-The output directory contains copies of all the output including material not in the paper. Data is normally output as a CSV file but includes a few Excel workbooks. Graphs are normally created as png files. Output file names reference the code that created them which in turn references the data used. This means any artefact in the output directory can be traced back to the data and code used to create it. A README file associated with each study contains a description of the data, its analysis, and the results. Openly publishing the data and code this way means the methods can be independently scrutinised and others are able to adapt and build on the work done.
+The output directory contains copies of all the output including material not in the paper. Data is normally output as a CSV file but includes a few Excel workbooks. Graphs are normally created as png files. Output file names reference the code that created them which in turn references the data used. Any artefact in the output directory can be traced back to the data and code used to create it. A README file associated with each study contains a description of the data, its analysis, and the results. Openly publishing the data and code this way means the methods can be independently scrutinised and others are able to adapt and build on the work done.
 
 ### Brief description of each study
 
