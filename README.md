@@ -5,20 +5,35 @@ This repository contains the data and programs underpinning research into the ac
 The 11-plus repository covers several studies. Each is organised under its own branch containing the relevant data, code and output. The overall structure looks like this:
 
 11-plus/
+
 ├── Bias effect size/
+
 │   ├── data/
+
 │   ├── code/
+
 │   └── output/
+
 ├── Bias linear regression/
+
 │
+
 ├── League Tables/
+
 │
+
 ├── Reliability & Validity/
+
 │
+
 ├── 2024 11-plus national survey/
+
 │
+
 ├── Official data/
+
 │
+
 └── README.md
 
 Programs are written in Python and will run under any text-based installation with the relevant libraries installed. Scripts read their input data directly from the repository but if running locally will require an ./output directory to write to.
